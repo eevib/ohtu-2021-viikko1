@@ -49,7 +49,7 @@ public class Varasto {
 
     // --- asettavat aksessorit eli setterit: ---
     public void lisaaVarastoon(double maara) {
-        if (maara > 0) // virhetilanteessa voidaan tehdä Muutettiin, jotta testit hajoaa, tarkoitus olla <0
+        if (maara < 0) // virhetilanteessa voidaan tehdä 
         {
             return;       // tällainen pikapoistuminenkin!
         }
