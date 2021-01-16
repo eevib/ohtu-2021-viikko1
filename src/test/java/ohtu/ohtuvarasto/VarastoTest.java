@@ -69,6 +69,7 @@ public class VarastoTest {
 
     @Test
     public void negatiivisellaAlkusaldollaLuodaanTyhjäVarasto() {
+        //Tehdään uusi varasto negatiivisella alkusaldolla.
         Varasto uusiVarasto = new Varasto(2, -1.0);
         assertEquals(0.0, uusiVarasto.getSaldo(), vertailuTarkkuus);
     }
