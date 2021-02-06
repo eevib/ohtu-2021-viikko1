@@ -22,7 +22,7 @@ public class Varasto {
         } else {// virheellinen, nollataan        
             this.tilavuus = 0.0;  // => käyttökelvoton varasto
         }
-        VarastoSaldo(tilavuus, alkuSaldo);
+        VarastoSaldo(alkuSaldo, tilavuus);
     }
 
     public void VarastoSaldo(double alkuSaldo, double tilavuus) {
